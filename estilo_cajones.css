@@ -30,3 +30,40 @@ table {
 #libre{
     background-color: #58D3F7;
 }
+#titulo_uso{
+    text-align: center;          /* Centra el texto dentro de cada div */
+        border-radius: 30px;
+        font-size: 60px;
+        border: solid black;
+        text-shadow:
+            2px 2px 0 #E6E6E6, /* Sombra hacia abajo a la derecha */
+            -1px -1px 0 #000, /* Sombra hacia arriba a la izquierda */
+            1px -1px 0 #000, /* Sombra hacia arriba a la derecha */
+            -1px 1px 0 #000;
+            margin: 10px;
+}
+
+#texto_uso{ 
+        flex:1;
+        color: black;
+        font-size: 23px;
+        text-align: left;
+        padding-left: 50px;
+        padding-right: 50px;
+        margin: 30px;
+        border-radius: 10px;
+        background-color: lightgray;
+
+    }
+#contra{ 
+        flex:1;
+        color: black;
+        font-size: 17px;
+        text-align: left;
+        padding-left: 50px;
+        padding-right: 50px;
+        margin-top: 2px;
+        border-radius: 10px ;
+        background-color: #F5BCA9;
+
+    }
