@@ -19,13 +19,18 @@ table {
 
         }
     th, td {
-            border: 1px solid black; /* Define el borde de las celdas */
+            border: 1px solid #444; /* Define el borde de las celdas */
             padding: 8px;            /* Espacio dentro de las celdas */
-            text-align: center;        /* Alineación del texto dentro de las celdas */
+            text-align: center; 
+            border-bottom: 4px solid #444;       /* Alineación del texto dentro de las celdas */
         }
     th {
             background-color: #58D3F7; /* Color de fondo para las celdas de encabezado */
         }
+        #tipo{
+    font-size: 20px;
+    font-family: fantasy;
+}
 
 #libre{
     background-color: #58D3F7;

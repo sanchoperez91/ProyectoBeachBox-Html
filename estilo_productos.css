@@ -4,3 +4,16 @@
 th {
             background-color: #58D3F7; /* Color de fondo para las celdas de encabezado */
         }
+
+table {
+    border: 20px  solid #444; /* Bordes exteriores más gruesos */
+    border-radius: 40px;
+}
+th, td {
+    border: 1px solid #444; /* Bordes estándar */
+    border-bottom: 4px solid #444; /* Bordes inferiores más gruesos */
+}
+#tipo{
+    font-size: 20px;
+    font-family: fantasy;
+}
