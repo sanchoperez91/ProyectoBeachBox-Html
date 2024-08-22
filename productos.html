@@ -1,0 +1,192 @@
+<!DOCTYPE HTML>
+<html lang="es">
+	<head>
+		<meta charset="utf-8"/>
+		<title>BEACH BOX</title>
+		
+		<!--<script type="text/javascript" src="js/27-ejercicio-arrays.js"></script>-->
+		<link rel="stylesheet" href="estilos_index.css">
+		<link rel="stylesheet" href="estilo_cajones.css">
+		<link rel="stylesheet" href="estilo_productos.css">
+
+
+
+	</head>
+	<body>
+		<header>
+			<div class="logo">
+        		<img src="imagenes/logo2.jpg" alt="Logotipo" style="height: 75px; width: auto; border-radius: 15px;">
+    		</div>
+    		<div class="titulo" onclick="location.href='index.html'"> BEACH BOX</div>
+    		<div class="insta"onclick="location.href='https://www.instagram.com/'">
+        		<img src="imagenes/instagram.jpg" alt="instagram" style="height: 35px; width: auto; border-radius: 15px;">
+    		</div>
+    		<div class="twitter"onclick="location.href='https://x.com/?lang=es'">
+        		<img src="imagenes/twitter.jpg" alt="twitter" style="height: 35px; width: auto; border-radius: 10px;">
+    		</div>
+    		<div class="facebook"onclick="location.href='https://www.facebook.com/?locale=es_ES'">
+        		<img src="imagenes/facebook.jpg" alt="facebook" style="height: 35px; width: auto; border-radius: 7px;">
+    		</div>
+		</header>
+
+		<div class="titulo_alquiler_cajones">Alquiler de productos</div> 
+			<div class="tabla">
+				<table>
+					<thead>
+			            <tr>
+			                <th>TIPO DE PRODUCTO </th>
+			                <th rowspan="2">FOTO</th>
+			                <th>HORAS</th>
+			                <th>EUROS/HORAS</th>
+			                <th id="libre"> </th>
+			                <th>DIAS 24h</th>
+			                <th>EUROS/DIAS</th>
+			            </tr>
+		        	</thead>
+		        	<tbody>
+			            <tr>
+			                <td>Esterilla</td>
+			                <td rowspan="3"><a href="imagenes/esterilla.png" target="_blank">
+			                	<img src="imagenes/esterilla.png" width="120" height="120">
+			                	</a>
+			            	</td>
+			                <td>1h</td>
+			                <td>0,50€</td>
+			              	<td id="libre"> </td>
+			                <td>1 dia</td>
+			                <td>5€</td>
+			            </tr>
+			            <tr>
+			                <td>Esterilla</td>
+			                <td>2h</td>
+			                <td>0,90€</td>
+			                <td id="libre"> </td>
+			                <td>7 dias</td>
+			                <td>10€</td>
+			            </tr>
+			            <tr>
+			                 <td>Esterilla</td>
+			                <td>8h</td>
+			                <td>3€</td>
+			                <td id="libre"> </td>
+			                <td>15 dias</td>
+			                <td>15€</td>
+			            </tr>
+			             <tr id="libre">
+			                <td></td>
+			                <td></td>
+			                <td></td>
+			                <td> </td>
+			                <td></td>
+			                <td></td>
+			                <td></td>
+			            </tr>
+			            <tr>
+			                <td>Sombrilla</td>
+			                <td rowspan="3"><a href="imagenes/sombrilla.jpg" target="_blank">
+			                	<img src="imagenes/sombrilla.jpg" width="120" height="120">
+			                	</a>
+			            	</td>
+			                <td>1h</td>
+			                <td>1€</td>
+			                <td id="libre"> </td>
+			                <td>1 dia</td>
+			                <td>5€</td>
+			            </tr>
+			            <tr>
+			                <td>Sombrilla</td>
+			                <td>2h</td>
+			                <td>1.50€</td>
+			                <td id="libre"> </td>
+			                <td>7 dias</td>
+			                <td>15€</td>
+			            </tr>
+			            <tr>
+			                <td>Sombrilla</td>
+			                <td>8h</td>
+			                <td>3€</td>
+			                <td id="libre"> </td>
+			                <td>15 dias</td>
+			                <td>20€</td>
+			            </tr>
+			             <tr id="libre">
+			                <td></td>
+			                <td></td>
+			                <td></td>
+			                <td> </td>
+			                <td></td>
+			                <td></td>
+			                <td></td>
+			            </tr>
+			             <tr>
+			                <td>Silla tumbable</td>
+							<td rowspan="3"><a href="imagenes/silla.png" target="_blank">
+			                	<img src="imagenes/silla.png" width="120" height="120">
+			                	</a>
+			            	</td>
+			                <td>1h</td>
+			                <td>2€</td>
+			                <td id="libre"> </td>
+			                <td>1 dia</td>
+			                <td>9€</td>
+			            </tr>
+			              <tr>
+			                <td>Silla tumbable</td>
+			                <td>2h</td>
+			                <td>3€</td>
+			                <td id="libre"> </td>
+			                <td>7 dias</td>
+			                <td>20€</td>
+			            </tr>
+			            <tr>
+			                <td>Silla tumbable</td>
+			                <td>8h</td>
+			                <td>6€</td>
+			                <td id="libre"> </td>
+			                <td>15 dias</td>
+			                <td>25€</td>
+			            </tr>
+			             <tr id="libre">
+			                <td></td>
+			                <td></td>
+			                <td></td>
+			                <td> </td>
+			                <td></td>
+			                <td></td>
+			                <td></td>
+			            </tr>
+			            <tr>
+			                <td>Pack silla, sombrilla y esterilla</td>
+			                <td rowspan="3"><a href="imagenes/pack.jpg" target="_blank">
+			                	<img src="imagenes/pack.jpg" width="120" height="120">
+			                	</a>
+			            	</td>
+			                <td>1h</td>
+			                <td>3€</td>
+			                <td id="libre"> </td>
+			                <td>1 dia</td>
+			                <td>12€</td>
+			            </tr>
+			            <tr>
+			                <td>Pack silla, sombrilla y esterilla</td>
+			                <td>2h</td>
+			                <td>4,50€</td>
+			                <td id="libre"> </td>
+			                <td>7 dias</td>
+			                <td>40€</td>
+			            </tr>
+			            <tr>
+			                <td>Pack silla, sombrilla y esterilla</td>
+			                <td>8h</td>
+			                <td>8€</td>
+			                <td id="libre"> </td>
+			                <td>15 dias</td>
+			                <td>50€</td>
+			            </tr>
+		        	</tbody>
+				</table>
+			</div>
+		
+	</body>
+
+</html> 
